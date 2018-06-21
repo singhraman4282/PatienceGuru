@@ -61,23 +61,11 @@
         <!--MainApp-->
         <scene sceneID="B2L-Fg-TQj">
             <objects>
-                <viewController storyboardIdentifier="MainApp" title="MainApp" id="61L-Io-uPf" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainApp" title="MainApp" id="61L-Io-uPf" customClass="FirstScreenViewController" customModule="PatienceGuru" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yfe-fx-zlc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qg-uL-dFJ">
-                                <rect key="frame" x="166" y="51" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="4qg-uL-dFJ" firstAttribute="top" secondItem="Sms-gb-rHC" secondAttribute="top" constant="31" id="0TC-ka-jTU"/>
-                            <constraint firstItem="4qg-uL-dFJ" firstAttribute="leading" secondItem="Sms-gb-rHC" secondAttribute="leading" constant="166" id="ErI-RH-qX8"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Sms-gb-rHC"/>
                     </view>
                 </viewController>

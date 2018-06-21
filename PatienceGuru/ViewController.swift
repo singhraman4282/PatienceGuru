@@ -14,8 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet var onboardingView: OnboardingView!
     @IBOutlet var getStartedOutlet: UIButton!
     
-    var backgroundColorArray = [UIColor(red: 217/255, green: 72/255, blue: 89/255, alpha: 1), UIColor(red: 168/255, green: 200/255, blue: 78/255, alpha: 1), UIColor(red: 106/255, green: 166/255, blue: 211/255, alpha: 1)]
-   
     override func viewDidLoad() {
         super.viewDidLoad()
         onboardingView.dataSource = self
@@ -106,4 +104,6 @@ extension ViewController: PaperOnboardingDelegate {
     }
     
 }
+
+var backgroundColorArray = [UIColor(red: 217/255, green: 72/255, blue: 89/255, alpha: 1), UIColor(red: 168/255, green: 200/255, blue: 78/255, alpha: 1), UIColor(red: 106/255, green: 166/255, blue: 211/255, alpha: 1)]
 

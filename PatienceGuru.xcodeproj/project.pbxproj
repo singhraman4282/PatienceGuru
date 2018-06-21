@@ -15,6 +15,7 @@
 		F130D98C20DB3C8E0012B37E /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F130D98B20DB3C8E0012B37E /* PaperOnboarding.framework */; };
 		F130D98D20DB3C8E0012B37E /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F130D98B20DB3C8E0012B37E /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F130D99020DB3E0F0012B37E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F130D98F20DB3E0F0012B37E /* OnboardingView.swift */; };
+		F1F277AB20DC1B4A00DAFE3C /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F277AA20DC1B4A00DAFE3C /* FirstScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		F130D98520DB0D300012B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F130D98B20DB3C8E0012B37E /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
 		F130D98F20DB3E0F0012B37E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F1F277AA20DC1B4A00DAFE3C /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				F130D97B20DB0D2F0012B37E /* ViewController.swift */,
 				F130D98F20DB3E0F0012B37E /* OnboardingView.swift */,
 				F130D97D20DB0D2F0012B37E /* Main.storyboard */,
+				F1F277AA20DC1B4A00DAFE3C /* FirstScreenViewController.swift */,
 				F130D98020DB0D300012B37E /* Assets.xcassets */,
 				F130D98220DB0D300012B37E /* LaunchScreen.storyboard */,
 				F130D98520DB0D300012B37E /* Info.plist */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F130D99020DB3E0F0012B37E /* OnboardingView.swift in Sources */,
+				F1F277AB20DC1B4A00DAFE3C /* FirstScreenViewController.swift in Sources */,
 				F130D97C20DB0D2F0012B37E /* ViewController.swift in Sources */,
 				F130D97A20DB0D2F0012B37E /* AppDelegate.swift in Sources */,
 			);
